@@ -1,0 +1,66 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+venv/
+.env/
+.env
+*.env
+
+# ===============================
+# Jupyter Notebooks
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# Environment & Secrets
+# ===============================
+db_credentials.py
+config.py
+secrets.py
+*.key
+*.pem
+
+# ===============================
+# Data Files
+# ===============================
+# Ignore raw data if large or sensitive
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+
+# Allow processed sample datasets if needed
+# !data/processed/sample_data.csv
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# IDE / Editor
+# ===============================
+.vscode/
+.idea/
+
+# ===============================
+# Power BI
+# ===============================
+# Keep final dashboard files if portfolio-ready
+# Ignore temporary files
+*.pbix.autosave
